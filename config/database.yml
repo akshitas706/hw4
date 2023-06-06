@@ -22,4 +22,8 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  
+  adapter: postgresql
+  database: my_app_production
+  username: travel_journal_app
+  password: TRAVEL_JOUNAL_APP
