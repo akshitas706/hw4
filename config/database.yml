@@ -26,4 +26,4 @@ production:
   adapter: postgresql
   database: my_app_production
   username: travel_journal_app
-  password: TRAVEL_JOUNAL_APP
+  password: TRAVEL_JOURNAL_APP
