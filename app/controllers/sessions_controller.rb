@@ -12,11 +12,11 @@ class SessionsController < ApplicationController
         session["user_id"] = @user["id"]
         redirect_to "/places"
       else
-        flash["notice"] = "Incorrect credentials!"
+        flash["notice"] = "Incorrect Email or Password!"
         redirect_to "/login"
       end
     else
-      flash["notice"] = "Incorrect credentials!"
+      flash["notice"] = "Incorrect Email or Password!"
       redirect_to "/login"
     end
   end
